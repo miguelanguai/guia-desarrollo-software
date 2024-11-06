@@ -1,5 +1,7 @@
 # Guía Desarrollo de Software
 
+## Investigación
+
 - Definir objetivos: Metas concretas, medibles, alcanzables y relevantes.
 - Identificar requisitos: Documentarlos de manera detallada
 - Estimar los tiempos: Basandose en experiencias pasadas. Considerar márgenes para posibles imprevistos.
