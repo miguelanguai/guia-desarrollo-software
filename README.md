@@ -97,3 +97,92 @@ Esto tardará en torno a 3 semanas.
 - Realizar evaluación post-implementación.
 
 Esto tardará en torno a 2 semanas.
+
+## Creación de tareas (Github Projects)
+
+### 1. Usa Títulos Claros y Descriptivos
+
+El título debe dar una idea clara de la tarea sin necesidad de abrirla.
+
+Usa palabras clave, por ejemplo:
+
+> Actualizar el formulario de registro
+>
+> Corregir error en autenticación
+
+Si la tarea es para un bug, menciona el problema de forma explícita, por ejemplo:
+> Error al enviar formulario en iOS
+
+### 2. Describe el Contexto y los Objetivos Claramente
+
+Explica qué problema resuelve o qué objetivo cumple la tarea.
+Agrega contexto relevante, como en qué área del proyecto impacta o si tiene requisitos previos.
+Si la tarea es técnica, incluye ejemplos de cómo se reproduce el problema o el resultado esperado.
+
+### 3. Divide las Tareas en Pasos o Subtareas
+
+Si la tarea es compleja, divídela en subtareas o pasos claros, por ejemplo:
+
+```markdown
+- [ ] Crear la vista del formulario
+- [ ] Validar datos de entrada
+- [ ] Conectar con la API
+```
+
+Esto ayuda a hacer el seguimiento del progreso y es útil para los revisores.
+
+### 4. Agrega Criterios de Aceptación
+
+Define claramente cuándo se considera que la tarea está completada. Por ejemplo:
+
+> El formulario debe validar campos obligatorios.
+>
+> El usuario debe recibir un mensaje de error si el campo está vacío.
+
+Esto ayuda a alinear expectativas y facilita las pruebas y revisiones.
+
+### 5. Usa Etiquetas (Labels) para Clasificar la Tarea
+
+Añade etiquetas como *bug*, *feature*, *enhancement*, *documentation*, *urgent*, *low-priority*, etc., para organizar y priorizar el trabajo.
+Las etiquetas ayudan a filtrar tareas y entender de un vistazo qué tipo de trabajo hay pendiente.
+
+### 6. Asigna a Personas y Agrega Fechas Límite (si son necesarias)
+
+Asigna responsables para cada tarea para que quede claro quién está trabajando en qué.
+Define fechas límite realistas en tareas críticas para asegurar que se cumplan a tiempo, pero evita poner fechas en exceso si no son necesarias, ya que puede crear presión innecesaria.
+
+### 7. Adjunta Recursos Relevantes
+
+Si la tarea requiere referencias a diseño, enlaces a documentación o archivos específicos, agrégalos en la descripción. Puedes adjuntar:
+
+- Imágenes, capturas de pantalla.
+- Documentos de especificaciones.
+- Enlaces a archivos Figma, diseños, u otros recursos visuales.
+
+### 8. Usa Plantillas para Estandarizar las Tareas
+
+Puedes configurar plantillas de issues en GitHub para asegurarte de que todas las tareas tengan los mismos elementos clave.
+Una plantilla básica puede incluir:
+
+1. Descripción del problema.
+2. Pasos para reproducir (si es un bug).
+3. Criterios de aceptación.
+4. Notas adicionales.
+
+Las plantillas hacen que todos los miembros del equipo sigan una estructura consistente.
+
+### 9. Mide y Prioriza la Tarea
+
+Asigna una prioridad usando etiquetas o un sistema numérico (por ejemplo, Alta, Media, Baja).
+Para tareas grandes, puedes hacer una estimación del esfuerzo en puntos, horas, o complejidad (1-5).
+Establecer prioridad y tamaño ayuda a planificar el trabajo y a enfocar los esfuerzos en tareas que tienen mayor impacto.
+
+### 10.  Involucra a los Colaboradores Desde el Inicio
+
+Etiqueta o menciona a las personas relevantes para obtener retroalimentación o comentarios desde el principio.
+Esto asegura que todos los que deben participar estén al tanto y puedan aportar ideas o corregir detalles de la tarea.
+
+### 11.  Mantén la Tarea Actualizada y Ciérrala al Completarla
+
+Si hay cambios en los requisitos o descubrimientos durante el desarrollo, actualiza la descripción de la tarea para reflejar el nuevo contexto.
+Al terminar, cierra la tarea y, si es posible, agrega un comentario final que describa los cambios realizados o cualquier aspecto relevante.
